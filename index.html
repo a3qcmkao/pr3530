@@ -1,0 +1,38 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html>
+<head><title>403 Error</title></head>
+<body bgcolor="white">
+<h1>403 Error</h1>
+Date:
+<script language="JavaScript" type="text/javascript">
+var enabled = 0; today = new Date();
+var date;
+M=today.getMonth() + 1
+D=today.getDate()
+HH=today.getHours()
+MM=today.getMinutes()
+SS=today.getSeconds()
+if (M<10)
+{
+M="0"+M
+}
+if (D<10)
+{
+D="0"+D
+}
+if (MM<10)
+{
+MM="0"+MM
+}
+if (HH<10)
+{
+HH="0"+HH
+}
+if (SS<10)
+{
+SS="0"+SS
+}
+date = (today.getFullYear()) + "/" + M + "/" + D + " " + HH+":"+MM+":"+SS +"";
+document.write(date);
+</script>
+</html>
